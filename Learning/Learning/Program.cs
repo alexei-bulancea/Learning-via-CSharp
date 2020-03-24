@@ -1,4 +1,5 @@
 ﻿using System;
+using Learning.LeetCode_Medium;
 using Learning.Patterns;
 namespace Learning
 {
@@ -6,7 +7,8 @@ namespace Learning
     {
         static void Main(string[] args)
         {
-            var chain = new ChainOfResponsibility();
+            //var chain = new ChainOfResponsibility();
+            var twoNumbers = new Add_Two_Numbers();
         }
     }
 }
