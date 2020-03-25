@@ -26,12 +26,12 @@ namespace Learning.LeetCode_Medium
     {
         public Add_Two_Numbers()
         {
-            var firstList = new Node(2);
+            var firstList = new Node(1);
             firstList.next = new Node(4);
-            firstList.next.next = new Node(3); // 342
+            //firstList.next.next = new Node(3); // 342
             var secondList = new Node(5);
-            secondList.next = new Node(6);
-            secondList.next.next = new Node(4); // 465
+            //secondList.next = new Node(6);
+            //secondList.next.next = new Node(4); // 465
 
             var result = AddTwoLists(firstList, secondList);
             ShowList(result);
@@ -60,17 +60,21 @@ namespace Learning.LeetCode_Medium
             Node resultList = new Node(currentValue % 10);
             var tempResult = resultList;
 
-            do
+            while (tempFirst?.next != null || tempSecond?.next != null)
             {
-                tempFirst = tempFirst.next;
-                tempSecond = tempSecond.next;
+                tempFirst = tempFirst?.next;
+                tempSecond = tempSecond?.next;
 
-                currentValue = tempFirst.value + tempSecond.value + transmitValue;
+                currentValue = (tempFirst == null ? 0 : tempFirst.value) + (tempSecond == null ? 0 : tempSecond.value) + transmitValue;
                 transmitValue = currentValue / 10;
                 tempResult.next = new Node(currentValue % 10);
                 tempResult = tempResult.next;
 
-            } while (tempFirst.next != null || tempSecond.next != null);
+            } 
+            if(transmitValue != 0)
+            {
+                tempResult.next = new Node(transmitValue); 
+            }
 
             return resultList;
         }
