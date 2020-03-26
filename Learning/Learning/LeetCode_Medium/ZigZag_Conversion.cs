@@ -1,7 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+/// <summary>
+/// 6. ZigZag ConversionThe string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
+/// (you may want to display this pattern in a fixed font for better legibility)
+///P A   H N
+///A P L S I I G
+///Y   I R
+///And then read line by line: "PAHNAPLSIIGYIR"
+/// </summary>
 namespace Learning.LeetCode_Medium
 {
     class ZigZag_Conversion
@@ -10,8 +17,8 @@ namespace Learning.LeetCode_Medium
 
         public ZigZag_Conversion()
         {
-            var str = "PAHNAPLSIIGYIR";
-            var result = Convert(str, 3);
+            var str = "ABCDE";
+            var result = Convert(str, 5);
 
             Console.WriteLine("ZigZagged string : " + str);
             Console.WriteLine("Converted string : " + result);
@@ -21,8 +28,8 @@ namespace Learning.LeetCode_Medium
 
         public string Convert(String s, int numRows)
         {
-            var numCols = (s.Length + numRows - 1 ) / numRows; // Doesn't work properly in AB  1 case
-            str = new char[4, numCols];
+            var numCols = numRows == 1 ? s.Length : (s.Length + 1) / 2;
+            str = new Char[numRows, numCols];
 
             var step = numRows - 1 == 0 ? 1 : numRows - 1;
             int count = 0;
