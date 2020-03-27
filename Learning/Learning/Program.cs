@@ -10,7 +10,8 @@ namespace Learning
             //var chain = new ChainOfResponsibility();
             //var twoNumbers = new Add_Two_Numbers();
             //var longestSubstring = new LongestSubstringWithoutRepeatingCharacters();
-            var zigZag_Conversion = new ZigZag_Conversion();
+            //var zigZag_Conversion = new ZigZag_Conversion();
+            var stringToInteger = new StringToInteger();
         }
     }
 }
