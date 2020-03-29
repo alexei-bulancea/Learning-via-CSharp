@@ -9,3 +9,14 @@ D:\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.AssemblyInfoInput
 D:\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.AssemblyInfo.cs
 D:\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.dll
 D:\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.pdb
+G:\C# projects and algorithms\Learning\Learning\Learning\bin\Debug\netcoreapp2.1\Learning.deps.json
+G:\C# projects and algorithms\Learning\Learning\Learning\bin\Debug\netcoreapp2.1\Learning.runtimeconfig.json
+G:\C# projects and algorithms\Learning\Learning\Learning\bin\Debug\netcoreapp2.1\Learning.runtimeconfig.dev.json
+G:\C# projects and algorithms\Learning\Learning\Learning\bin\Debug\netcoreapp2.1\Learning.dll
+G:\C# projects and algorithms\Learning\Learning\Learning\bin\Debug\netcoreapp2.1\Learning.pdb
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.csprojAssemblyReference.cache
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.csproj.CoreCompileInputs.cache
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.AssemblyInfoInputs.cache
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.AssemblyInfo.cs
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.dll
+G:\C# projects and algorithms\Learning\Learning\Learning\obj\Debug\netcoreapp2.1\Learning.pdb
