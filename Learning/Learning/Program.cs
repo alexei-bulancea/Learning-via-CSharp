@@ -13,7 +13,8 @@ namespace Learning
             //var zigZag_Conversion = new ZigZag_Conversion();
             //var stringToInteger = new StringToInteger();
             //var mostWater = new ContainerWithMostWater();
-            var intToRoman = new IntegerToRoman();
+            //var intToRoman = new IntegerToRoman();
+            var rr = new _3Sum();
         }
     }
 }
