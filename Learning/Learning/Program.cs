@@ -15,7 +15,8 @@ namespace Learning
             //var mostWater = new ContainerWithMostWater();
             //var intToRoman = new IntegerToRoman();
             //var rr = new _3Sum();
-            var rr = new _3SumClosest();
+            //var rr = new _3SumClosest();
+            var rr = new PhoneNumberLetterCombination();
         }
     }
 }
