@@ -17,7 +17,8 @@ namespace Learning
             //var rr = new _3Sum();
             //var rr = new _3SumClosest();
             //var rr = new PhoneNumberLetterCombination();
-            var rr = new _4Sum();
+            //var rr = new _4Sum();
+            var tt = new Nekos_Maze();
         }
     }
 }
